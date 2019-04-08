@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<html>
+<head>
+<title><insert-title>title</insert-title></title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+<insert-links/>
+
+<insert-base/>
+</head>
+
+  <body>
+    
+  <!--start page container -->
+    
+  <div id="pageContainer">
+
+<insert-head/>
+
+<!--<div id="crumbs">-->
+<insert-breadcrumbs>breadcrumbs</insert-breadcrumbs>
+<!--</div>-->
+
+<!-- end header -->
+  
+    <!--Main Content begins -->
+    <div id="contentContainerLeftColumn">
+      
+      <!-- Begin left column, sidebar  -->
+      <div id="mainContentLeft"> 
+          <div class="leftColumn">
+            <h4>View options:</h4>
+            <insert-viewOptions>insert-viewOptions</insert-viewOptions>
+          </div>
+        
+            <div class="leftColumn">
+              <insert-searchForm>insert-searchForm</insert-searchForm>
+              <insert-hits>insert-hits</insert-hits>
+            </div>
+        
+            <div class="leftColumn">
+              <h4>Contents:</h4>
+              <ul id="tocList">
+	              <insert-toc>insert-toc</insert-toc>
+	          </ul>
+            </div>
+        
+            <div class="leftColumnNoBorder">
+              <h4>Want to learn more?</h4>
+                <ul>
+                  <li>Do you have a question about this collection?</li>
+                  <li>Would you like to view the original items in this collection?</li>
+                  <li>Are you seeking permission to publish or reproduce items in this
+                  collection?</li>
+                </ul>
+              <p><span class="smaller">Please contact the holding repository:<insert-institution/></span></p>
+            </div>
+          
+        </div> <!-- end mainContentLeft -->
+        <div id="mainContentCenter">
+          
+          <div class="title">
+          	<h3 id="bookmark">
+				<!-- AddThis Button BEGIN -->
+				<a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;pub=diglib"><img src="http://s7.addthis.com/static/btn/v2/lg-bookmark-en.gif" width="125" height="16" alt="Bookmark and Share" /></a>
+				<!-- AddThis Button END -->
+			</h3>
+           <h2>
+              <insert-title>title</insert-title>
+           </h2>
+          </div>
+      
+    <!-- text  -->
+    <insert-text>insert text here<insert-thisHref/></insert-text>
+      </div> <!-- end mainContentContainer -->
+    </div> <!--end contentContainerLeftColumn -->
+    <div class="clear"> </div>  
+ 
+    
+  <!-- end menu -->
+  <!-- footer starts here -->
+  <insert-footer/>
+  </div><!-- end pageContainer --> 
+ 
+</body>
+</html>

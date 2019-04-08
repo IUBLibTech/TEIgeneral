@@ -1,0 +1,130 @@
+
+<brand owner="etext@dlib.indiana.edu">
+
+<brandName>Default Brand</brandName>
+  
+  <links>
+    <link rel="stylesheet" href="css/TEIgeneral.css"/>
+    <link rel="stylesheet" media="print" href="css/print.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" media="@media only screen and (max-width: 480px), only screen and (max-device-width: 480px)" href="css/small_device.css" />
+<!--    <script type="text/javascript" src="http://www.dlib.indiana.edu/lib/js/ext-core/3.0/ext-core.js"/>-->
+    <script type="text/javascript" src="js/iufa/dynaxml.js"/>
+    <script type="text/javascript" src="js/iufa/functions.js"/>
+    <script type="text/javascript">
+		function doClear(theText) {
+			if (theText.value == theText.defaultValue) {
+		        theText.value = "";
+		    }
+		}
+  	</script>
+  	<script type="text/javascript" src="js/iufa/dom-drag.js"></script>
+      <!-- Javascript file for AddThis button -->
+<!--  	<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js?pub=diglib"/>-->
+  </links>
+
+  <headerIU>
+  	<div id="skipnav">
+		<a href="#skipnavLink">Skip to Content</a>
+	</div>
+    <div id="identity">
+      <div id="signature">
+        <a href="http://www.iub.edu/" title="Indiana University"><img src="/TEIgeneral/images/iu_white.gif" alt="Indiana University" width="171" height="44" /></a>		
+      </div>
+      <hr />
+    </div>
+  </headerIU>
+  
+
+  <header>
+
+    <ul id="top_nav_links" role="navigation">
+      <li><a href="/TEIgeneral/welcome.do?brand=TEIgeneral">Home</a></li>  
+      <li><a href="/TEIgeneral/projectinfo.do">Project Information</a></li>
+      <li><a href="/TEIgeneral/help.do">Help</a></li>
+      <li><a href="/TEIgeneral/search?smode=showBag&amp;brand=TEIgeneral">My Selections</a></li>
+    </ul>
+    
+    <form id="top_search_form" method="get" action="/TEIgeneral/search" role="search">
+      	<fieldset>
+        	<input type="hidden" name="brand" value="TEIgeneral" />
+        	<input type="hidden" name="style" value="" />
+        	<input type="hidden" name="smode" value="simple" />
+        	<input type="hidden" name="rmode" value="none" />
+        	<label for="freeformQuery">Search TEI General</label>
+        	<input name="freeformQuery" id="freeformQuery" type="text" size="20" value="keyword search" onfocus="doClear(this)" />
+        	<input type="submit" value="Search" onclick="return checkTopForm();" />
+      	</fieldset>
+      </form>
+
+      
+    <div id="bannerDiv" role="banner">
+      <h1 class="banner">TEI General</h1>
+      <img id="banner" src="/TEIgeneral/images/TEIgeneral.png"/>
+    </div>
+
+    
+    <div id="navigation" role="navigation">
+
+      <ul id="main_nav">
+      	<li><a href="/TEIgeneral/search?smode=advanced;brand=TEIgeneral">Search</a></li>
+ <li class="nopipe spaceout">Browse:</li>
+<li><a href="/TEIgeneral/browse.do?type=creator&amp;filter=A" title="Browse by Author">Author</a></li>
+        <li class="pipe"><a href="/TEIgeneral/browse.do?type=title&amp;filter=A" title="Browse by Title"> Title</a></li>
+        <li class="pipe"><a href="/TEIgeneral/browse.do?type=daterange&amp;filter=num" title="Browse by Publication Year"> Year</a></li>
+      </ul>
+
+     
+      <a id="skipnavLink"></a>
+    </div>
+    
+    
+    <!-- end header -->
+  </header>
+  
+ 
+
+  
+  <footer>
+    <!-- start footer -->
+    <p>
+       <a href="http://www.dlib.indiana.edu">IU Digital Library Program</a>
+	</p>
+	<p>
+	   Comments: <a href="mailto:diglib@indiana.edu">diglib@indiana.edu</a>
+	</p>
+	<br/>
+        <a href="http://www.libraries.iub.edu/index.php?pageId=1137">Libraries Privacy Policy</a>
+	<!-- end footer -->
+  </footer>
+  
+  
+  <footerIU>
+    <!-- start footerIU -->
+	<div id="footerIU" role="contentinfo">
+		<hr />
+		<div id="copyright">
+			<div id="blockiu">
+				<a href="http://www.indiana.edu/" title="Indiana University"><img src="/TEIgeneral/images/blockiu_white.gif" alt="Block IU" width="22" height="28" /></a>
+			</div> <!-- END blockiu -->
+			<div id="statement">
+				<a href="http://www.indiana.edu/comments/copyright.shtml" title="Copyright">Copyright</a> &#169; 
+
+				The Trustees of <a href="http://www.indiana.edu/" title="Indiana University">Indiana University</a> &#124; <a href="http://www.indiana.edu/comments/complaint.shtml" title="Copyright Complaints">Copyright Complaints</a> &#124; <a href="http://www.libraries.iub.edu/index.php?pageId=1137">Libraries Privacy Policy</a>
+			</div>	<!-- END statement -->
+		</div><!-- END copyright -->
+	</div><!-- END footerIU -->
+    <!-- end footerIU -->  
+    <!-- Acquire a tracker ID and uncomment for Google Analytics -->
+<!--<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-5726636-6");
+pageTracker._trackPageview();
+} catch(err) {}
+</script>
+-->  </footerIU>
+  
+</brand>
